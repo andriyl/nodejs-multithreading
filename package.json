@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-multithreading",
+  "version": "1.0.0",
+  "description": "Node.js multithreading examples",
+  "scripts": {
+    "run:blocking": "node cpu-bound-blocking.js",
+    "run:promises": "node cpu-bound-promises.js",
+    "run:threads": "node cpu-bound-worker-threads.js",
+    "run:threads-multi": "node cpu-bound-worker-threads-multi.js",
+    "time": "time curl --get http://localhost:3000/blocking",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["nodejs", "multi-threading"],
+  "author": "Andriy Leliv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
